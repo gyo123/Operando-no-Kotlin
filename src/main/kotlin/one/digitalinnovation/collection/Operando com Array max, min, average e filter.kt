@@ -3,8 +3,8 @@ package one.digitalinnovation.collection
 fun main() {
     val Number = doubleArrayOf(1000.0, 2000.0)
 
-    println("Maior salário: ${Number.max()}")
-    println("Menor Salário: ${Number.min()}")
+    println("Maior salário: ${Number.maxOrNull()}")
+    println("Menor Salário: ${Number.minOrNull()}")
     println("Média salarial: ${Number.average()}")
 
     val SalarioMaiorQue1500 = Number.filter { it > 1500.0 }
